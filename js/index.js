@@ -6,23 +6,23 @@ hero.addEventListener("click", (e) => {
         switch (e.target.value) {
             case "reseau":
                 localStorage.setItem("category", e.target.value);
-                location.href = "https://localhost:5500/pages/categorie.html";
+                location.href = "https://boua-moise.github.io/papos_user/pages/categorie.html";
                 break;
             case "systeme":
                 localStorage.setItem("category", e.target.value);
-                location.href = "https://localhost:5500/pages/categorie.html";
+                location.href = "https://boua-moise.github.io/papos_user/pages/categorie.html";
                 break;
             case "programmation":
                 localStorage.setItem("category", e.target.value);
-                location.href = "https://localhost:5500/pages/categorie.html";
+                location.href = "https://boua-moise.github.io/papos_user/pages/categorie.html";
                 break;
             case "cybersecurity":
                 localStorage.setItem("category", e.target.value);
-                location.href = "https://localhost:5500/pages/categorie.html";
+                location.href = "https://boua-moise.github.io/papos_user/pages/categorie.html";
                 break;
             case "ia":
                 localStorage.setItem("category", e.target.value);
-                location.href = "https://localhost:5500/pages/categorie.html";
+                location.href = "https://boua-moise.github.io/papos_user/pages/categorie.html";
                 break;
             default:
                 console.log("désolé!!!");
