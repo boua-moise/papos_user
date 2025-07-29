@@ -16,12 +16,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 async function getAllArticle() {
     try {
         const [pop, reseau, systeme, programmation, cybersecurity, ia] = await Promise.all([
-            fetch("http://127.0.0.1:8000/articles/pop_rec"),
-            fetch("http://127.0.0.1:8000/articles/reseau/liste"),
-            fetch("http://127.0.0.1:8000/articles/systeme/liste"),
-            fetch("http://127.0.0.1:8000/articles/programmation/liste"),
-            fetch("http://127.0.0.1:8000/articles/cybersecurity/liste"),
-            fetch("http://127.0.0.1:8000/articles/ia/liste"),
+            fetch("https://papos-backend.onrender.com/articles/pop_rec"),
+            fetch("https://papos-backend.onrender.com/articles/reseau/liste"),
+            fetch("https://papos-backend.onrender.com/articles/systeme/liste"),
+            fetch("https://papos-backend.onrender.com/articles/programmation/liste"),
+            fetch("https://papos-backend.onrender.com/articles/cybersecurity/liste"),
+            fetch("https://papos-backend.onrender.com/articles/ia/liste"),
         ]);
 
         if (

@@ -6,7 +6,7 @@ const categorie = localStorage.getItem("category")
 
 document.addEventListener("DOMContentLoaded", async (e) => {
     const id = localStorage.getItem("viewId");
-    const result = await fetch(`http://127.0.0.1:8000/articles/${id}/contenu`, {
+    const result = await fetch(`https://papos-backend.onrender.com/articles/${id}/contenu`, {
         method: "GET",
         headers:{
             "content-type": "application/json"
