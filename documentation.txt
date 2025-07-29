@@ -1,0 +1,15 @@
+BLOC DU PROJET
+
+. Utilisateur
+- page d'accueil(présentation, articles récents et les plus populaires)
+- page de domaines 
+- page de contact
+- a propos
+- visionnage d'article
+
+. Admin
+- authentification
+- page d'accueil (liste des articles)
+- ajout d'articles
+- mise à jour d'article
+
