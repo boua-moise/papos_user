@@ -116,35 +116,35 @@ hero.addEventListener("click", (e) => {
                 hero.style.backgroundImage = `url('../images/${e.target.value}.jpg')`
                 title.textContent = "Réseau Informatique";
                 returnArticles(dataReseau);
-                location.href = "http://"+location.host + location.pathname + "#article";
+                location.href = "https://"+location.host + location.pathname + "#article";
                 break;
             case "systeme":
                 localStorage.setItem("category", e.target.value);
                 hero.style.backgroundImage = `url('../images/${e.target.value}.jpg')`
                 title.textContent = "Système Informatique";
                 returnArticles(dataSysteme);
-                location.href = "http://"+location.host + location.pathname + "#article";
+                location.href = "https://"+location.host + location.pathname + "#article";
                 break;
             case "programmation":
                 localStorage.setItem("category", e.target.value);
                 hero.style.backgroundImage = `url('../images/${e.target.value}.jpg')`
                 title.textContent = "Programmation";
                 returnArticles(dataProgrammation);
-                location.href = "http://"+location.host + location.pathname + "#article";
+                location.href = "https://"+location.host + location.pathname + "#article";
                 break;
             case "cybersecurity":
                 localStorage.setItem("category", e.target.value);
                 hero.style.backgroundImage = `url('../images/${e.target.value}.jpg')`
                 title.textContent = "Cybersécurité";
                 returnArticles(dataCybersecurity);
-                location.href = "http://"+location.host + location.pathname + "#article";
+                location.href = "https://"+location.host + location.pathname + "#article";
                 break;
             case "ia":
                 localStorage.setItem("category", e.target.value);
                 hero.style.backgroundImage = `url('../images/${e.target.value}.jpg')`
                 title.textContent = "Intélligence Artificielle";
                 returnArticles(dataIa);
-                location.href = "http://"+location.host + location.pathname + "#article";
+                location.href = "https://"+location.host + location.pathname + "#article";
                 break;
             default:
                 console.log("désolé!!!");
