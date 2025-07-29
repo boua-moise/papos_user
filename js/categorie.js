@@ -165,7 +165,7 @@ function returnArticles(data) {
                 </div>
                 <div class="article-text">
                     <h2>${element.titre}</h2>
-                    <p>Un blog pour les curieux du numérique, les passionnés, et les geeks assumés! ✨</p>
+                    <p>${element.description}</p>
                     <div><span class="category">${element.categorie}</span></div>
                 </div>
             </article>
