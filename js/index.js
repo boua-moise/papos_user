@@ -35,7 +35,7 @@ document.addEventListener("click", (e) => {
     if (e.target.closest("article")) {
         const idArticle = e.target.closest("article");
         localStorage.setItem("viewId", idArticle.id);
-        location.pathname = "pages/contenu.html";
+        location.pathname = "papos_user/pages/contenu.html";
 
     }
 })

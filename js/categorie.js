@@ -92,13 +92,13 @@ async function getAllArticle() {
             if (e.target.closest("article")) {
                 const idArticle = e.target.closest("article");
                 localStorage.setItem("viewId", idArticle.id);
-                location.pathname = "pages/contenu.html";
+                location.pathname = "papos_user/pages/contenu.html";
             }
 
             if (e.target.closest("li")){
                 const idArticle = e.target.closest("li");
                 localStorage.setItem("viewId", idArticle.id);
-                location.pathname = "pages/contenu.html";
+                location.pathname = "papos_user/pages/contenu.html";
             }
             
         })
